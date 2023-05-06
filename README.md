@@ -5,7 +5,7 @@ This is a bare-bones Angular project that has everything you need to quickly dep
 
 Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/angular-quickstart)
+[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/blueco-landing)
 
 ## Table of Contents:
 
@@ -25,7 +25,7 @@ Click this button and it will help you create a new repo, create a new Netlify p
 Clone this repo with one of these options:
 - Click the 'Deploy to Netlify' button above
 - Click the 'Use this template' button at the top of the page
-- Or via the command line `git clone https://github.com/netlify-templates/angular-quickstart`
+- Or via the command line `git clone https://github.com/netlify-templates/blueco-landing`
 
 Then install the necessary packages and run the project locally to make sure everything works.
 
@@ -36,7 +36,7 @@ ng serve
 
 Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
 
-> 🚨 If you decide to change the project name be sure to change it everywhere in the project including the [Netlify configuration file, `netlify.toml`](./netlify.toml), as there are many places in Angular projects where the project name is used. A quick fix is to find/replace all instances of `angular-quickstart` with your project name.
+> 🚨 If you decide to change the project name be sure to change it everywhere in the project including the [Netlify configuration file, `netlify.toml`](./netlify.toml), as there are many places in Angular projects where the project name is used. A quick fix is to find/replace all instances of `blueco-landing` with your project name.
 
 ## Deploying
 
@@ -44,7 +44,7 @@ There are a few ways to deploy this template:
 - Click the 'Deploy to Netlify' button above 
 - Use the `netlify deploy` command
 - Head to the [Netlify UI](https://app.netlify.com/) to deploy via GitHub or [drag and drop](https://app.netlify.com/drop) the project folder
-- Use the Netlify CLI's create from template command `netlify sites:create-template angular-quickstart` which will create a repo, Netlify project, and deploy it
+- Use the Netlify CLI's create from template command `netlify sites:create-template blueco-landing` which will create a repo, Netlify project, and deploy it
 
 ## Styling
 
@@ -58,7 +58,7 @@ The variables below give you the ability to change the gradient colors of the bl
 
 ```css
 // Controls the blob blur gradient colors within the main tag's svg
---top-right-blur-1: #20C6B7;
+--top-right-blur-1: #20C6B7;Controlstheblobblurgradientcolorswithinthemaintagsvg--top-right-blur-1
 --top-right-blur-2: #4D9ABF;
 --bttm-left-blur-1: #de3641;
 --bttm-left-blur-2: #e46b73;
@@ -66,7 +66,7 @@ The variables below give you the ability to change the gradient colors of the bl
 
 ## Remove Styling
 
-If you decide that our styling is not for you, all you'll need to do is remove the [demo-styling.css](https://github.com/netlify-templates/angular-quickstart/blob/tn/designUpdates/src/demo-styling.css) file. 
+If you decide that our styling is not for you, all you'll need to do is remove the [demo-styling.css](https://github.com/netlify-templates/blueco-landing/blob/tn/designUpdates/src/demo-styling.css) file. 
 
 ## Testing
 
