@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['../demo-styling.css']
 })
 export class AppComponent {
-  title = 'angular-quickstart';
+  title = environment.title;
 }

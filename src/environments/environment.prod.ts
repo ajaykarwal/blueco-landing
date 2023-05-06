@@ -1,3 +1,6 @@
+import { base } from './base-environment';
+
 export const environment = {
-  production: true
+  ...base,
+  production: true,
 };
