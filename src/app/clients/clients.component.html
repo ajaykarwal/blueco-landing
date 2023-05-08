@@ -1,32 +1,18 @@
-<div class="mx-auto max-w-7xl px-6 lg:px-8 py-6 lg:py-28">
-  <div class="mx-auto max-w-2xl lg:text-center">
-    <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+<div class="bg-sky-800 py-24">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <h2 class="text-center text-lg font-semibold leading-8 text-white">
       Our Clients
     </h2>
-    <p class="my-6 text-lg leading-8 text-gray-600">
-      Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-    </p>
-  </div>
-  <div class="grid grid-cols-1 gap-x-2 gap-y-16 text-center md:grid-cols-4">
-    <div
-      class="mx-auto flex flex-col justify-center bg-gray-100 px-4 rounded-lg"
-    >
-      <img src="assets/client-karigran.png" alt="Kari Gran" />
-    </div>
-    <div
-      class="mx-auto flex flex-col justify-center bg-gray-100 px-4 rounded-lg"
-    >
-      <img src="assets/client-tierra.png" alt="Tierra by Maria" />
-    </div>
-    <div
-      class="mx-auto flex flex-col justify-center bg-gray-100 px-4 rounded-lg"
-    >
-      <img src="assets/client-an.png" alt="Au Naturale" />
-    </div>
-    <div
-      class="mx-auto flex flex-col justify-center bg-gray-100 px-4 rounded-lg"
-    >
-      <img src="assets/client-drdana.png" alt="Dr Dana" />
+    <div class="mx-auto mt-10 grid grid-cols-2 md:grid-cols-4 items-center gap-x-8 gap-y-10">
+      <ng-container *ngFor="let client of clients">
+        <div class="flex justify-center">
+          <img
+            src="assets/client-{{ client.id }}.png"
+            alt="{{ client.name }}"
+            width="200"
+          />
+        </div>
+      </ng-container>
     </div>
   </div>
 </div>

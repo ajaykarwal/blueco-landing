@@ -12,9 +12,15 @@ import { ClientsComponent } from './clients/clients.component';
 import { ServicesComponent } from './services/services.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { MethodComponent } from './method/method.component';
+import { CtaComponent } from './cta/cta.component';
+import { ReadyComponent } from './ready/ready.component';
+import { FbaComponent } from './fba/fba.component';
+import { PpcComponent } from './ppc/ppc.component';
+import { ConvertingComponent } from './converting/converting.component';
+import { CfpComponent } from './cfp/cfp.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, IntroComponent, StatsComponent, PartnersComponent, ClientsComponent, ServicesComponent, TestimonialsComponent, MethodComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, IntroComponent, StatsComponent, PartnersComponent, ClientsComponent, ServicesComponent, TestimonialsComponent, MethodComponent, CtaComponent, ReadyComponent, FbaComponent, PpcComponent, ConvertingComponent, CfpComponent],
   imports: [BrowserModule, AppRoutingModule],
   exports: [HeaderComponent, FooterComponent],
   providers: [],
