@@ -17,10 +17,27 @@ import { ReadyComponent } from './ready/ready.component';
 import { FbaComponent } from './fba/fba.component';
 import { PpcComponent } from './ppc/ppc.component';
 import { ConvertingComponent } from './converting/converting.component';
-import { CfpComponent } from './cfp/cfp.component';
+import { CpfComponent } from './cpf/cpf.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, IntroComponent, StatsComponent, PartnersComponent, ClientsComponent, ServicesComponent, TestimonialsComponent, MethodComponent, CtaComponent, ReadyComponent, FbaComponent, PpcComponent, ConvertingComponent, CfpComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    IntroComponent,
+    StatsComponent,
+    PartnersComponent,
+    ClientsComponent,
+    ServicesComponent,
+    TestimonialsComponent,
+    MethodComponent,
+    CtaComponent,
+    ReadyComponent,
+    FbaComponent,
+    PpcComponent,
+    ConvertingComponent,
+    CpfComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   exports: [HeaderComponent, FooterComponent],
   providers: [],

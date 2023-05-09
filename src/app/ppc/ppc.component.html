@@ -1,12 +1,55 @@
-<div class="px-6 lg:px-8 py-16 lg:py-18 bg-sky-100">
-    <div class="mx-auto max-w-7xl">
-      <div class="mx-auto max-w-2xl lg:text-center">
-        <h2
-          class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+<div class="relative bg-sky-50 py-6 sm:py-12 md:py-24">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-16 gap-y-4 sm:grid-cols-2 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+    >
+      <div class="lg:pr-8 lg:pt-4">
+        <div class="lg:max-w-lg">
+          <h2
+            class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Scale Your Business To New Heights With Amazon PPC
+          </h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">
+            Our data-driven advertising strategies use our proven method for
+            campaign creation, management, testing and optimization to maximize
+            your budgets and drive results. We help with:
+          </p>
+
+          <div class="py-4 sm:py-8">
+            <ul class="list-image-[url(assets/checkmark.png)]">
+              <li
+                *ngFor="let stat of stats"
+                class="text-sm font-semibold md:text-md lg:text-lg py-2 pl-2 ml-8"
+              >
+                {{ stat }}
+              </li>
+            </ul>
+          </div>
+          <div class="mt-4 flex justify-center lg:justify-start">
+            <app-cta></app-cta>
+          </div>
+          <div class="mt-4 flex justify-center lg:justify-start gap-x-6 pt-4">
+            <img src="assets/amazon-ads-small.png" alt="Amazon Ads logo" class="h-20">
+            <img src="assets/amazon-advertising-small.png" alt="Amazon Advertising logo" class="h-20">
+          </div>
+        </div>
+      </div>
+      <div class="order-last md:order-first flex flex-col items-center">
+        <img
+          src="assets/ppc-screenshot.png"
+          alt="Product screenshot"
+          class="max-w-[25rem] md:-ml-4 lg:-ml-0"
+        />
+        <div
+          class="text-md max-w-[25rem] relative -top-20 font-semibold text-gray-900 md:text-lg lg:text-xl"
         >
-          PPC SECTION
-        </h2>
+          <blockquote class="bg-sky-600 rounded-lg p-6 text-white text-center">
+            "Our average ROAS is 5&times; across our Amazon portfolio"
+            <cite class="block text-base font-normal mt-2">— James Waddington, CMO —</cite>
+          </blockquote>
+        </div>
       </div>
     </div>
   </div>
-  
+</div>

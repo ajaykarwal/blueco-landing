@@ -1,11 +1,77 @@
-<div class="px-6 lg:px-8 py-16 lg:py-18 bg-gray-100">
-  <div class="mx-auto max-w-7xl">
-    <div class="mx-auto max-w-2xl lg:text-center">
-      <h2
-        class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-      >
-        FBA SECTION
-      </h2>
+<div class="relative bg-gray-100 py-6 sm:py-12 md:py-24">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-16 gap-y-4 sm:grid-cols-2 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+    >
+      <div class="lg:pr-8 lg:pt-4">
+        <div class="lg:max-w-lg">
+          <h2
+            class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            FBA Ready! All Of Your Operations Under One Roof...
+          </h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">
+            Navigating the complexities of Amazon can be a daunting task,
+            especially when support is largely automated and difficult to reach.
+            We're here to help:
+          </p>
+
+          <div class="py-4 sm:py-8">
+            <ul class="list-image-[url(assets/checkmark.png)]">
+              <li
+                *ngFor="let stat of stats"
+                class="text-sm font-semibold md:text-md lg:text-lg py-2 pl-2 ml-8"
+              >
+                {{ stat }}
+              </li>
+            </ul>
+          </div>
+          <div class="mt-4 flex justify-center lg:justify-start">
+            <app-cta></app-cta>
+          </div>
+          <div class="mt-4 flex justify-center lg:justify-start gap-x-6 pt-4">
+            <img
+              src="assets/amazon-fba-small.png"
+              alt="Fulfillment by Amazon logo"
+              class="h-20"
+            />
+            <img
+              src="assets/amazon-prime-small.png"
+              alt="Amazon Pprime logo"
+              class="h-20"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center">
+        <img
+          src="assets/fba-screenshot.png"
+          alt="Product screenshot"
+          class="max-w-[25rem] md:-ml-4 lg:-ml-0"
+        />
+        <div
+          class="text-md max-w-[25rem] relative -top-20 font-semibold text-gray-900 md:text-lg lg:text-xl"
+        >
+          <blockquote class="bg-sky-600 rounded-lg p-6 text-white text-center">
+            Our team has direct access to Amazon Seller Support associates and
+            we have the experience and knowledge to assist with every aspect of
+            selling on Amazon.
+            <!-- <cite class="block text-base font-normal mt-2"
+              >— James Waddington, CMO —</cite
+            > -->
+          </blockquote>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="custom-shape-divider-bottom-1683661319">
+    <svg
+      data-name="Layer 1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 120"
+      preserveAspectRatio="none"
+    >
+      <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
   </div>
 </div>
