@@ -11,10 +11,6 @@ export class ClientsComponent implements OnInit {
   ngOnInit(): void {}
   clients = [
     {
-      id: 'karigran',
-      name: 'Kari Gran',
-    },
-    {
       id: 'tierra',
       name: 'Tierra by Maria',
     },
