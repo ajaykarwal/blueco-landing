@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CtaComponent implements OnInit {
   @Input() text: string = 'Book A Free Consultation';
-  @Input() url: string = 'https://calendly.com/blueco-sales/30min';
+  @Input() url: string = 'https://calendly.com/jade-blueco/30min';
   constructor() {}
 
   ngOnInit(): void {}
